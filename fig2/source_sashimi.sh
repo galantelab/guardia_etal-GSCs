@@ -1,0 +1,1 @@
+rmats2sashimiplot --b1 ./MES_83_aligned.sorted.bam,./MES_326_aligned.sorted.bam,./MES_1123_aligned.sorted.bam --b2 ./PRO_19_aligned.sorted.bam,./PRO_157_aligned.sorted.bam,./PRO_528_aligned.sorted.bam -t SE -e ./SE-Events-PCR.txt --l1 MES --l2 PRO --exon_s 1 --intron_s 5 --group-info group_info.gf -o output
